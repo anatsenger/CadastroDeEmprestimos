@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+body{
+    background-color: rgba(190, 190, 190, .6);
+    color: rgba(190, 190, 190, .6);
+}
+
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form{
+    width: 330px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+input[type="submit"]{
+    margin-top:10px;
+    cursor: poiter;
+}
+
+h2{
+    text-align: center;
+}
+
+#esquerda{
+    width: 30%;
+    background-color: rgba(190, 190, 190, .6);
+    height: 500px;
+    float: left;
+}
+
+#direita{
+    width: 70%;
+    background-color: rgba(190, 190, 190, .6);
+    height: 500px;
+    float: right;
+}
+
+table{
+    background-color: rgba(0, 0, 0, .2);
+    width: 95%;
+    margin: 30px auto;
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+}
+
+td{
+    padding: 0px, 5px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34, 139, 34);
+}
+
+div.erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgb(164, 42, 42);
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+nav{
+    background-color: black;
+    height: 40px;
+}
+
+a#barra-link{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+
+
+li{
+    line-height: 40px;
+    float: left;
+}
